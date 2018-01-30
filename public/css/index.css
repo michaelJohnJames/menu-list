@@ -50,6 +50,8 @@ body {
     top: 0;
     padding-top: 0px;
     margin-top: 0px;
+    position: absolute;
+    z-index: 9999;
   }
 
   #side-x {
@@ -67,6 +69,7 @@ body {
     color: white;
     text-decoration: none;
     padding: 10px;
+
   }
 
   .slideshow-container {
