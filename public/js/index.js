@@ -2,13 +2,20 @@ console.log("hello world")
 
 const navBar = document.getElementById('top-nav')
 const topX = document.getElementById('top-x')
+const sideX = document.getElementById('side-x')
+const sideMenu = document.getElementById('side-nav')
 
-function menu() {
-  navBar.style.height = "200px";
-  navBar.style.width = "150px";
+function hideTopNav() {
   navBar.classList.add('hidden')
+  sideMenu.classList.remove('hidden')
+}
+
+function hideSideNav() {
+  sideMenu.classList.add('hidden')
+  navBar.classList.remove('hidden')
+
 }
 
 
-
-topX.addEventListener('click', menu);
+sideX.addEventListener('click', hideSideNav);
+topX.addEventListener('click', hideTopNav);
