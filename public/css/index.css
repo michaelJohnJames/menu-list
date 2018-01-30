@@ -7,7 +7,7 @@
 
   }
 
-  li {
+  .main-nav {
     display: inline-block;
     font-size: 20px;
     color: white;
@@ -25,3 +25,12 @@
   .hidden {
     display: none;
   }
+
+  #side-nav {
+  background-color: purple;
+  color: white;
+  height: 100vh;
+  width: 250px;
+  }
+
+  

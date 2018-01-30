@@ -1,6 +1,6 @@
 console.log("hello world")
 
-const navBar = document.querySelector('nav')
+const navBar = document.getElementById('main-nav')
 
 function menu() {
   navBar.style.height = "200px";
