@@ -1,10 +1,20 @@
+.hidden {
+  display: none;
+}
 
-
-  nav {
-    background-color: purple;
-    height: 50px;
+  #top-nav {
     width: 100%;
+    height: 50px;
+    background-color: purple;
 
+  }
+
+  #top-x {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
   }
 
   .main-nav {
@@ -16,21 +26,26 @@
     padding: 10px;
   }
 
-  li:hover {
+  hover {
     background-color: white;
     color: purple;
     border-radius: 20px;
   }
 
-  .hidden {
-    display: none;
-  }
+
 
   #side-nav {
   background-color: purple;
   color: white;
   height: 100vh;
   width: 250px;
+  top: 0;
   }
 
-  
+  .side-list {
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }

@@ -1,6 +1,7 @@
 console.log("hello world")
 
-const navBar = document.getElementById('main-nav')
+const navBar = document.getElementById('top-nav')
+const topX = document.getElementById('top-x')
 
 function menu() {
   navBar.style.height = "200px";
@@ -10,4 +11,4 @@ function menu() {
 
 
 
-navBar.addEventListener('click', menu);
+topX.addEventListener('click', menu);
