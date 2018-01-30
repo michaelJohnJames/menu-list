@@ -1,0 +1,27 @@
+
+
+  nav {
+    background-color: purple;
+    height: 50px;
+    width: 100%;
+
+  }
+
+  li {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  li:hover {
+    background-color: white;
+    color: purple;
+    border-radius: 20px;
+  }
+
+  .hidden {
+    display: none;
+  }
