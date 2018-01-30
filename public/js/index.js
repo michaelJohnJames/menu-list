@@ -1,4 +1,3 @@
-console.log("hello world")
 
 const navBar = document.getElementById('top-nav')
 const topX = document.getElementById('top-x')
