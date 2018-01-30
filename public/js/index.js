@@ -12,7 +12,6 @@ function hideTopNav() {
 function hideSideNav() {
   sideMenu.classList.add('hidden')
   navBar.classList.remove('hidden')
-
 }
 
 
