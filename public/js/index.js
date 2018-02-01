@@ -7,7 +7,6 @@ const sideMenu = document.getElementById('side-nav')
 function hideTopNav() {
   navBar.classList.add('hidden')
   sideMenu.classList.remove('hidden')
-  
 }
 
 function hideSideNav() {
@@ -46,6 +45,8 @@ function changeImgBackward() {
   }
 }
 
-document.slide.src = images[0]
+//document.slide.src = images[0]
 prevArrow.addEventListener('click', changeImgBackward);
 nextArrow.addEventListener('click', changeImgForward);
+
+window.onload = changeImgForward
