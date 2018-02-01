@@ -7,6 +7,7 @@ const sideMenu = document.getElementById('side-nav')
 function hideTopNav() {
   navBar.classList.add('hidden')
   sideMenu.classList.remove('hidden')
+  
 }
 
 function hideSideNav() {

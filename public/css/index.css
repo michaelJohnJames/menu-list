@@ -53,8 +53,18 @@ body {
     top: 0;
     margin-left: 0px;
     padding-left: 5px;
+    animation: appear .25s forwards;
     position: absolute;
     z-index: 9999;
+  }
+
+  @keyframes appear {
+    0% {width: 0px}
+    100% { width: 150px}
+  }
+
+  #side-nav::before {
+    transform: translateX(100%);
   }
 
   #side-x {
@@ -72,6 +82,7 @@ body {
     color: white;
     text-decoration: none;
     padding: 10px;
+    transition: transform 0.2s;
 
   }
 
