@@ -13,15 +13,15 @@ body {
     position: fixed;
     z-index: 9999;
     margin-top: 0;
-    padding-top: 0;
+    margin-bottom: 5px;
 
   }
 
   #top-x {
     text-decoration: none;
-    color: white;
-    font-size: 20px;
-    display: inline-block;
+    display: inline;
+    margin-top: 20px;
+    padding-top: 20px;
     cursor: pointer;
   }
 
@@ -72,6 +72,7 @@ body {
     text-decoration: none;
     color: white;
     font-size: 20px;
+    margin-top: 10px;
     display: block;
     cursor: pointer;
 
